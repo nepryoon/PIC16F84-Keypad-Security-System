@@ -43,8 +43,7 @@ $$T_{delay} \approx (COUNT1 \times COUNT2 \times COUNT3) \times 1\mu s$$
 ## Installation & Compilation
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/nepryoon/PIC16F84-Keypad-Security-System.git](https://github.com/nepryoon/PIC16F84-Keypad-Security-System.git)
-    ```
+    git clone https://github.com/nepryoon/PIC16F84-Keypad-Security-System.git
 2.  **Open the Source:** Load the `.asm` file in **MPLAB X IDE**.
 3.  **Build:** Ensure the toolchain is set to MPASM and the device is PIC16F84. Build to generate the `.hex` file.
 4.  **Flash:** Use a programmer (e.g., PICkit 3) to load the hex file onto the microcontroller.
